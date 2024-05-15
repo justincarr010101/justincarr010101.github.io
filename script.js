@@ -165,7 +165,7 @@ projects = [
 '     and uses that output along side the users inputted data to do a calories burnt calculation.',
 '   • Calculations for calorie prediction were 96.9% accurate in comparison to the gold standard of an apple watch.',
 '<a href="Assets/Capstone Final Report - Group 24" target="_blank">Final Report PDF</a>',
-'<a href="https://github.com/justincarr010101/CapstoneProject" target="_blank">Project github repository</a>',
+'<a href="Assets/Capstone_Final_Report_Group_24.pdf" target="_blank">Final Report PDF</a>',
 '',
 "Compiler project CMPE-458",
 'Primary Instructor - Jahed, Karim',
