@@ -1620,6 +1620,17 @@ input, select, textarea {
 
 		}
 
+download-button{
+	background-color: #000000; /* Green */
+	border:#ffffff;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
 /* Footer */
 
 	#footer {
