@@ -1,8 +1,4 @@
-const express = require('express');
-const { exec } = require('child_process');
-const bodyParser = require('body-parser');
 
-const app = express();
 
 document.addEventListener('DOMContentLoaded', function () {
     const output = document.getElementById('output');
