@@ -37,11 +37,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 displayInput(firstOut);
                 displayInfo(experience);
                 break;
-            case 'github':
+            case 'git':
                 displayInput(firstOut); 
                 window.open('https://github.com/justincarr010101', '_blank');
                 break;
-            case 'linkedin':
+            case 'linked':
                 displayInput(firstOut);
                 window.open('https://www.linkedin.com/in/justin-carr-15a621205', '_blank');
                 break;
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 displayInput(firstOut);
                 window.open('https://chat.openai.com', '_blank');
                 break;
-            case 'youtube':
+            case 'yt':
                 displayInput(firstOut);
                 window.open('https://www.youtube.com', '_blank');
                 break;
@@ -229,6 +229,6 @@ loading = [
 
 gitHub = [
 
-'<a href="https://github.com/justincarr010101/CapstoneProject" target="_blank">Github Link</a>',
+'<a href="https://github.com/justincarr010101" target="_blank">Github Link</a>',
 
 ]
