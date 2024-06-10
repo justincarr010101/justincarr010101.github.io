@@ -82,6 +82,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+academia = [
+
+'Bachelors Degree in computer engineering: Queens University',
+'- Specialized in artificial intelligence',
+'Business certificate: Smith school of business',
+'Cumulative GPA: 3.34'
+
+]
+
 help = [
 
 'List of directories: ',
