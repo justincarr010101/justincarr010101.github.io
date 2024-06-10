@@ -37,6 +37,22 @@ document.addEventListener('DOMContentLoaded', function () {
                 displayInput(firstOut);
                 displayInfo(experience);
                 break;
+            case 'github':
+                displayInput(firstOut); 
+                window.open('https://github.com/justincarr010101', '_blank');
+                break;
+            case 'linkedin':
+                displayInput(firstOut);
+                window.open('https://www.linkedin.com/in/justin-carr-15a621205', '_blank');
+                break;
+            case 'gpt':
+                displayInput(firstOut);
+                window.open('https://chat.openai.com', '_blank');
+                break;
+            case 'youtube':
+                displayInput(firstOut);
+                window.open('https://www.youtube.com', '_blank');
+                break;
             case 'projects':
                 displayInput(firstOut);
                 displayInfo(projects);
