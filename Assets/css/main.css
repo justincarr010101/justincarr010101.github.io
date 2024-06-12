@@ -1620,6 +1620,34 @@ input, select, textarea {
 
 		}
 
+		/* Article Work Specific */
+	        #work .card {
+	            width: 100%;
+	            height: 0;
+	            padding-bottom: 150%; /* Adjust based on aspect ratio */
+	            position: relative;
+	        }
+	
+	        #work .card embed {
+	            position: absolute;
+	            top: 0;
+	            left: 0;
+	            width: 100%;
+	            height: 100%;
+	        }
+	
+	        @media (max-width: 736px) {
+	            #work .card {
+	                padding-bottom: 200%; /* Adjust for smaller screens */
+	            }
+	        }
+	
+	        @media (max-width: 480px) {
+	            #work .card {
+	                padding-bottom: 250%; /* Further adjustment for very small screens */
+	            }
+	        }
+
 download-button{
 	background-color: #000000; /* Green */
 	border:#ffffff;
